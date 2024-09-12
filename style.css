@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk';
+}
+:root{
+    --green: #B9FF66;
+    --black: #191A23;
+    --white:#fff;
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 30px;
+}
+
+   
+nav  .antertag{
+   width: 50%;
+}
+nav .antertag a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-weight: 600;
+}
+nav .antertag button{
+    padding: 10px 15px;
+    border: 1px solid black;
+    background: none;
+    border-radius: 15px;
+    transition-duration: 1s;
+}
+nav .antertag button:hover{
+    background: black;
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+} 
+nav .bar i{
+    display: none;
+    font-size: 30px;
+    color: #191A23;
+    text-decoration: none;
+}
+
+/* nav  */
+
+/* first */
+
+.main{
+    margin-left: 6%;
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main.text{
+    width: 50%;
+}
+
+.main .text p{
+    width: 30%;
+    margin-top: 3%;
+}
+.main .text button{
+    padding: 15px 40px;
+    background-color: #191A23;
+    border-radius: 15px;
+    margin-top: 3%;
+    color: #fff;
+    border: none;
+    transition-duration: 1s;
+}
+.main .text button:hover{
+    background: none;
+    color: black;
+    border: 2px solid black;
+} 
+.main .image{
+    width: 70%;
+}
+.main .image img{
+    width: 50%;
+}
+
+
+/* second */
+
+
+.logoes{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+/* third */
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+.third .head{
+    width: auto;
+    text-align: center;
+}
+.third .head h1{
+    padding: 5px 10px;
+    background-color: #B9FF66;
+    
+}
+.third .texta{
+    width: 70%;
+}
+
+/* fourth */
+.box{
+    margin-top: 8%;
+    /* margin-left: 2%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+.box .first{
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: auto;
+  background-color: #F3F3F3;
+  border: 1px solid black ;
+  
+  padding: 30px 40px 30px 30px ;
+  border-radius: 20px;
+  text-align: center;
+} 
+.box .first .texte h3{
+    background-color: #B9FF66;
+    line-height: 1;
+    font-size: 40px;
+}
+.box .first .texte button{
+ margin-top: 30%;
+ border: none;
+ background: none;
+
+ 
+}
+.box .firs .texte button i img{
+    margin-left: 40px;
+    gap: 20px;
+} 
+.box .first .imag{
+    padding-top: 10%;
+}
+.box .first .image img{
+    width: 100%;
+}
+
+ /*sec box  */
+.box .sec{
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: auto;
+  background-color: #B9FF66;
+  padding: 30px 40px 30px 30px ;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid black ;
+}
+.box .sec .tete h3{
+    background-color: #fff;
+    line-height: 1;
+    font-size: 40px;
+}
+.box .sec .tete button{
+ margin-top: 30%; 
+ border: none;
+ background: none;
+ margin-left: 0%;
+
+ 
+}
+.box .firs .tete button i img{
+    margin-left: 40px;
+    
+} 
+.box .sec .imag{
+    padding-top: 10%;
+}
+
+/* fifth */
+    
+.mains{
+    /* background-color: #B9FF66; */
+    margin-left: 5%;
+}
+.fifth{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+.fifth .head{
+    width: 50%;
+    margin-left: 5%;
+    width: auto;
+    /* text-align: center; */
+}
+.fifth .head h1{
+    margin-left: 9%;
+    padding: 5px 10px;
+    background-color: #B9FF66;
+    
+}
+.fifth .texta{
+    width: 50%;
+}
+
+
+/* sixth */
+#hello{
+    background-color: #B9FF66;
+}
+.accordion-item{
+    background-color: #B9FF66;
+    /* margin-top: 5%; */
+    width: 70%;
+    margin: auto;
+}
+#red{
+ margin-top: 5%;
+}
+.accordion-button{
+    background-color: #B9FF66;
+    outline: 0;
+}
+.accordion-button:active{
+outline: none;
+background-color: #B9FF66;
+}
+
+#headingTwo ,#headingThree {
+    background-color: #F3F3F3;
+}
+

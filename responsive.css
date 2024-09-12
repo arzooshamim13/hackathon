@@ -1,0 +1,50 @@
+@media only screen and (max-width:1320px){
+    nav{
+        justify-content: space-between;
+        padding: 40px 60px;
+    }
+    nav .antertag{
+
+        display: none;
+    }
+    nav .bar i{
+        display: block;
+        text-decoration: none;
+        cursor: pointer
+    }
+    .main{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .main .text{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .main .text p{
+        margin: 0px auto;
+        width: 100%;
+    }
+.third{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10%;
+}
+.third head{
+    width: auto;
+}
+.box{
+    flex-direction: column;
+}
+.box .sec{
+    margin-top: 5%;
+}
+}
+
+.fifth{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10%;
+}
+.fifth .head{
+    width: auto;
+}
